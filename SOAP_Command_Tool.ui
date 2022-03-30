@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>703</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SOAP Command Tool</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>NETGEAR_logo.jpg</normaloff>NETGEAR_logo.jpg</iconset>
+  </property>
+  <widget class="QLabel" name="IPAddress_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP Address</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Port_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Port</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="APIGroup_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>API Group</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="APIName_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>API Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IPAddress">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Port">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="APIGroup">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="APIName">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InputBody_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Input Body</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ExecutionLogs_label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>-10</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Execution Logs</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendAPI">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send API</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Quit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>540</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="execution_logs">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>491</width>
+     <height>561</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="InputBody">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>141</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="APIGroup_label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Account</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="APIGroup_label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Account">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Password">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
