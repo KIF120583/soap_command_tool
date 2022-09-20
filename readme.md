@@ -35,13 +35,10 @@ Password : Password1
 API Group : DeviceInfo
 API Name : GetInfo
 Input body : 
+![image](https://user-images.githubusercontent.com/53918737/191156934-0b5876d6-8bb6-4246-91b6-9d9f583b3d54.png)
 
  
 
 How to config Input Body ? 
      example :
 API : EnableTrafficMeter  => "<NewTrafficMeterEnable>0</NewTrafficMeterEnable> \n"
-
-
-
-
